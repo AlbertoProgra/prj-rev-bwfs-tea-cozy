@@ -1,0 +1,217 @@
+body,
+.locations_container {
+  margin: 0 auto;
+}
+
+body,
+.menu_container,
+.mission_text,
+.locations_box {
+  background-color: black;
+}
+
+.image_box {
+  margin-bottom: 62px;
+  margin-left: 14px;
+  margin-right: 14px;
+  width: 300px;
+}
+
+.image_box,
+.cozy_container {
+  height: 200px;
+}
+
+.image_table {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image_text {
+  margin-top: 212px;
+}
+
+.locations_box {
+  display: inline-block;
+  height: auto;
+  margin: 15px 20px;
+  width: 300px;
+}
+
+.locations_container {
+  background-image: url('../images/img-locations-background.jpg');
+  display: flex;
+  height: 570px;
+  width: 1200px;
+}
+
+.main_container {
+  color: seashell;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+.main_container
+.locations_container
+.principal_box
+.location_box {
+  opacity: 1;
+}
+
+.menu_container {
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  position: fixed;
+  z-index: 10;
+}
+
+.menu_container,
+.mission_container {
+  align-items: center;
+  display: flex;
+}
+
+.menu_container,
+.mission_text {
+  width: 100%;
+}
+
+.menu_image {
+  padding-left: 10px;
+}
+
+.menu_image img {
+  display: block;
+  height: 50px;
+}
+
+.menu_links a {
+  color: seashell;
+}
+
+.menu_links span {
+  padding: 10px;
+}
+
+.mission_container {
+  background-image: url('../images/img-mission-background.jpg');
+  height: 700px;
+  margin: 0 auto 69px auto;
+  position: relative;
+  top: 69px;
+  width: 1200px;
+  z-index: 5;
+}
+
+.mission_container,
+.tea_container,
+.locations_container,
+.cozy_container {
+  text-align: center;
+}
+
+.mission_text {
+  height: auto;
+}
+
+.principal_box {
+  display: block;
+  margin: 40px auto;
+}
+
+.tea_container {
+  margin: 0 auto 50px auto;
+  width: 1000px;
+}
+
+.tea_content {
+  align-items: center;
+  display: inline-block;
+  height: 155px;
+  margin-bottom: 35px;
+}
+
+.text {
+  margin-top: 0px;
+}
+
+.text h2 {
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+
+#center {
+  justify-content: center;
+}
+
+#cozy_h2 {
+  margin-bottom: 40px;
+  margin-top: 15px;
+}
+
+#five {
+  background-image: url('../images/img-bedford-bizarre.jpg');
+}
+
+#four {
+  background-image: url('../images/img-donut.jpg');
+}
+
+#locations_h3 {
+  margin-bottom: 35px;
+}
+
+#locations_h4 {
+  margin-bottom: 45px;
+}
+
+#mark {
+  margin: 20px 0 35px 20px;
+  text-align: left;
+}
+
+#mission_h2 {
+  margin-bottom: 18px;
+  margin-top: 10px;
+}
+
+#mission_h4 {
+  margin-bottom: 10px;
+  margin-top: 18px;
+}
+
+#one {
+  background-image: url('../images/img-berryblitz.jpg');
+}
+
+#one,
+#two,
+#three,
+#four,
+#five,
+.mission_container,
+.locations_container {
+  background-size: cover;
+}
+
+#space-between {
+  justify-content: space-between;
+}
+
+#tea_h2 {
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+
+#tea_h4 {
+  margin-top: 20px;
+}
+
+#three {
+  background-image: url('../images/img-donut.jpg');
+}
+
+#two {
+  background-image: url('../images/img-spiced-rum.jpg');
+}
